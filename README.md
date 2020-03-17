@@ -1,2 +1,2 @@
-# basic
-Some basic data viz codes in R
+# Basic Footballviz
+Some basic football (soccer) data viz codes in R
