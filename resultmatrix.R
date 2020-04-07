@@ -28,4 +28,14 @@ head(isl)
 install.packages("ggplot2")
 library(ggplot2)
 
-ggplot(isl,aes(x=away,y=home,fill=hgoal-agoal))+geom_tile()+geom_label(aes(label=paste(hgoal,agoal,sep = "-")),fill="white")+scale_fill_gradient2(low = "red",high = "green",midpoint = 0,guide = FALSE)+scale_x_discrete(limits = levels(isl$home), position = "top") + scale_y_discrete(limits = rev(levels(isl$away)))+theme_classic()+theme(text = element_text("serif"))+labs(title="ISL 19-20 LEAGUE STAGE RESULTS",caption="darker green = more emphatic home win, darker red = more emphatic away win")+xlab("AWAY")+ylab("HOME")
+ggplot(isl,aes(x=away,y=home,fill=hgoal-agoal))+
+geom_tile()+
+geom_label(aes(label=paste(hgoal,agoal,sep = "-")),fill="white")+
+scale_fill_gradient2(low = "red",high = "green",midpoint = 0,guide = FALSE)+
+scale_x_discrete(limits = levels(isl$home), position = "top") + 
+scale_y_discrete(limits = rev(levels(isl$away)))+
+theme_classic()+
+theme(text = element_text("serif"))+
+labs(title="ISL 19-20 LEAGUE STAGE RESULTS",caption="darker green = more emphatic home win, darker red = more emphatic away win")+
+xlab("AWAY")+
+ylab("HOME")
