@@ -14,4 +14,6 @@ Only shots which are not direct free kicks or penalties are considered, while po
 
 Due to a lack of better data, I have made an assumption that dribbles are equal to take-ons (which shouldn't be the case in reality). Also, shots after a corner or a free kick or throw in are taken into account despite them being set pieces or very short possessions in general.
 
-Furthermore, the dataset consists of only league stage Indian Super League matches, not the final stages.
+Furthermore, the dataset consists of only league stage Indian Super League matches, not the final stage games.
+
+The attempt here is to find out who have been the most influential players for their respective teams over the past few seasons, and a few other derived analyses from the Usage Rate concept.
