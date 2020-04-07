@@ -17,3 +17,5 @@ Due to a lack of better data, I have made an assumption that dribbles are equal 
 Furthermore, the dataset consists of only league stage Indian Super League matches, not the final stage games.
 
 The attempt here is to find out who have been the most influential players for their respective teams over the past few seasons, and a few other derived analyses from the Usage Rate concept.
+
+R for data visualization and data wrangling, RShiny for data presentation via webapp, and MS Excel for data cleaning and data wrangling, have been used.
