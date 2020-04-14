@@ -5,4 +5,4 @@ Some basic football (soccer) data viz codes in R
 
 2. [Learn how to build a shiny app and plot 2 Indian Super League graphs by feeding inputs](https://github.com/abhijitbharalianalyst/basic/blob/master/usagerate.R).
 
-3. Learn how to build simple Spider and Radar plots using the **FMSB package**.
+3. [Learn how to build simple Spider and Radar plots using the **FMSB package**](https://github.com/abhijitbharalianalyst/basic/blob/master/spiderplot.R).
