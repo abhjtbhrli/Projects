@@ -7,4 +7,4 @@ Some basic football (soccer) data viz codes in R
 
 3. [Building Spider and Radar plots using the **FMSB package**](https://github.com/abhijitbharalianalyst/basic/blob/master/spiderplot.R).
 
-4. [Creating a binned density map of assists in the history of the Indian Super League, sorted by team](https://github.com/abhijitbharalianalyst/basic/blob/master/isl_assists.r)
+4. [Creating a binned density map of assists in the history of the Indian Super League, sorted by team](https://github.com/abhijitbharalianalyst/basic/blob/master/isl_assists.r).
