@@ -12,7 +12,7 @@ ggplot()+
   scale_fill_gradient(low = "#00AFBB", high = "#FF1493")+
   labs(title = "QATAR's halfspace \n domination vs. INDIA",
        subtitle = "Location of all passes received",
-       caption = "@progball")+
+       caption = "")+
   theme(text = element_text(family = "Courier New"),
         plot.background = element_rect(fill = "ivory"),
         panel.background = element_rect(fill = "ivory"),
