@@ -1,6 +1,6 @@
 ggplot()+
-  annotate_pitch(dimensions = pitch_custom)+
-  theme_pitch()+
+  ggsoccer::annotate_pitch(dimensions = pitch_custom)+
+  ggsoccer::theme_pitch()+
   geom_point(data = qat.pass%>%
                filter(team=="Qatar",event=="Passes accurate"),
              aes(x=x2,y=y2),shape=21,size=2.5, colour="black")+
