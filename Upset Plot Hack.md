@@ -1,7 +1,7 @@
 # Upset Plot Hack 
 ### *A Dummy Project*
 
-This is a longer workaround of building an upset plot in R. There are packages like `Complex UpSet`, `UpSetR`, and `ggupset` that can make life easier while create upset plots, but I wanted to build something from scratch, even if it's hacky. 
+This is a longer workaround of building an upset plot in R. There are packages like `Complex UpSet`, `UpSetR`, and `ggupset` that can make life easier while creating upset plots, but I wanted to build something from scratch, even if it's hacky. 
 
 Here we go!
 
