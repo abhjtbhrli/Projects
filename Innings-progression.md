@@ -36,7 +36,7 @@ Step2: Download data from cricsheet.
 
 Clicking on this link [https://cricsheet.org/downloads/ntb_male_csv2.zip](https://cricsheet.org/downloads/ntb_male_csv2.zip) downloads the .zip file of the IPL dataset. You can then extract the .zip file and save the .csv file in the working directory of RStudio. 
 
-Step 3: Load data (named "IPL.csv" in my RStudio working directory) into `R`.
+Step 3: Load data (named _"IPL.csv"_ in my RStudio working directory) into `R`.
 
 ```
 cric<-read.csv("IPL.csv")
