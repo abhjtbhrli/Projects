@@ -4,6 +4,16 @@
 
 ## Basic Visualisations
 
+### Visualise innings progression in cricket matches
+
+This is a recreation of a dataviz used by [Stats Perform](https://www.statsperform.com/resource/modelling-cricket-innings-composition/) in their cricket data science related projects. The visualisation showcases how batters pace their innings in a match, highlighting that not all runs are scored similarly. [View my full project documentation here.](https://github.com/abhjtbhrli/Projects/blob/master/Innings-progression.md)
+
+The viz goes like...
+
+![opta](https://user-images.githubusercontent.com/37649445/126365025-6bcfea49-2d45-4a06-b81f-112a7301c60c.png)
+
+_______________________
+
 ### Visualise football match results in a matrix using matchsheet data from Transfermarkt.com
 
 *** **Method 1** ***
@@ -141,6 +151,16 @@ One of the most important aspects of performance analysis in any sport is opposi
 The end product looks like this...
 
 ![KB](https://user-images.githubusercontent.com/37649445/126359741-beebcf9d-37e3-4dc8-97c1-ea6cbb846169.png)
+
+_______________________
+
+### Comparison viz - Radar Plots/Spider Graphs
+
+A widely used visualisation tool to compare players and teams. Its creation is aided by the `fmsb` package. [View my full project documentation here.](https://github.com/abhjtbhrli/Projects/blob/master/spiderplot.R)
+
+The viz goes like...
+
+![fmsb](![image](https://user-images.githubusercontent.com/37649445/126365363-067ce70d-d2f3-49b4-96ea-6fc4780af7d3.png)
 
 _______________________
 
