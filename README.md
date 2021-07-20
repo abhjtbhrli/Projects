@@ -126,7 +126,7 @@ The final result looks something like this...
 
 ![result matrix](https://user-images.githubusercontent.com/37649445/126327305-c618059f-f881-4a20-b1d5-9d22034b087d.png)
 
-This is one example of a basic data visualisation of sports data using `R`.
+This is an example of a full-stack sports data visualisation approach using `R`, wherein we extract the data from the web using scraping techniques, clean and wrangle the extracted data to a usable format and then visualise the data to generate insights. 
 
 ## Advanced Visualisations
 
