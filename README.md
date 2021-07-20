@@ -6,11 +6,11 @@
 
 **Visualise football match results in a matrix using matchsheet data from Transfermarkt.com**
 
-### **Method #1** 
+### *** **Method 1** ***
 
 [Copy-paste the data from _transfermarkt.com_ in local machine and generate the viz.](https://github.com/abhjtbhrli/Projects/blob/master/resultmatrix.R)
 
-### **Method #2** 
+### *** **Method 2** ***
 
 Web scrape the data from _transfermarkt.com_ and do a full-stack approach to building the viz.
 
