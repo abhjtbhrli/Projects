@@ -4,15 +4,17 @@
 
 ## Basic Visualisations
 
-**Visualise football match results in a matrix using matchsheet data from Transfermarkt.com**
+### Visualise football match results in a matrix using matchsheet data from Transfermarkt.com
 
-### *** **Method 1** ***
+*** **Method 1** ***
 
 [Copy-paste the data from _transfermarkt.com_ in local machine and generate the viz.](https://github.com/abhjtbhrli/Projects/blob/master/resultmatrix.R)
 
-### *** **Method 2** ***
+*** **Method 2** *** ⬇️ ⬇️ **tutorial**⬇️ ⬇️
 
-Web scrape the data from _transfermarkt.com_ and do a full-stack approach to building the viz.
+[Web scrape the data from _transfermarkt.com_ and do a full-stack approach to building the viz.](https://github.com/abhjtbhrli/Projects/blob/master/rslt-scrp-mtrx.R)
+
+_______________________ 
 
 I walk through method #2 here as it is computationally more challenging.
 
@@ -122,11 +124,25 @@ ggplot(table,aes(x=away,y=home,fill=hgoal-agoal))+
   ggsave("result matrix",dpi = 300, device = "png",width = 11.27,height = 8.27)
 ```
 
-The final result looks something like this...
+The final result looks like this...
 
 ![result matrix](https://user-images.githubusercontent.com/37649445/126327305-c618059f-f881-4a20-b1d5-9d22034b087d.png)
 
 This is an example of a full-stack sports data visualisation approach using `R`, wherein we extract the data from the web using scraping techniques, clean and wrangle the extracted data to a usable format and then visualise the data to generate insights. 
+
+_______________________
+
+### Lollipops to visualise starting lineup changes of football teams
+
+One of the most important aspects of performance analysis in any sport is opposition analysis. This lollipop chart visualisation provides the starting point for opposition analysis for football teams, highlighting the changes made to a team's starting XI on a per-game basis.
+
+[Here's the source code](https://github.com/abhjtbhrli/Projects/blob/master/Upset%20Plot%20Hack.md) for automating lineup information using the `worldfootballR` package for extracting the required data and `ggplot2` for visual representation and analysis.
+
+The end product looks like this...
+
+![KB](https://user-images.githubusercontent.com/37649445/126359741-beebcf9d-37e3-4dc8-97c1-ea6cbb846169.png)
+
+_______________________
 
 ## Advanced Visualisations
 
