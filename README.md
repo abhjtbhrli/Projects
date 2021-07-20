@@ -2,7 +2,7 @@
 
 [Abhijit Bharali](https://abhijitbharali.com/) | [Twitter: `@abhibharali`](https://twitter.com/abhibharali)
 
-## Basic Visualisations
+## Visualisations
 
 ### Visualise innings progression in cricket matches
 
@@ -160,20 +160,16 @@ A widely used visualisation tool to compare players and teams. Its creation is a
 
 The viz goes like...
 
-![fmsb](![image](https://user-images.githubusercontent.com/37649445/126365363-067ce70d-d2f3-49b4-96ea-6fc4780af7d3.png)
+![image](https://user-images.githubusercontent.com/37649445/126365363-067ce70d-d2f3-49b4-96ea-6fc4780af7d3.png)
 
 _______________________
-
-## Advanced Visualisations
 
 ## Data Modelling
 
 ## App Building
 
-1. [Creating a result matrix of any league in the world, using simple, matchsheet data](https://github.com/abhijitbharalianalyst/basic/blob/master/resultmatrix.R).
+- [Building a shiny app to plot 2 Indian Super League graphs by feeding inputs](https://github.com/abhijitbharalianalyst/basic/blob/master/usagerate.R).
 
-2. [Building a shiny app to plot 2 Indian Super League graphs by feeding inputs](https://github.com/abhijitbharalianalyst/basic/blob/master/usagerate.R).
+- [Building Spider and Radar plots using the **FMSB package**](https://github.com/abhijitbharalianalyst/basic/blob/master/spiderplot.R).
 
-3. [Building Spider and Radar plots using the **FMSB package**](https://github.com/abhijitbharalianalyst/basic/blob/master/spiderplot.R).
-
-4. [Creating a binned density map of assists in the history of the Indian Super League, sorted by team](https://github.com/abhijitbharalianalyst/basic/blob/master/isl_assists.r).
+- [Creating a binned density map of assists in the history of the Indian Super League, sorted by team](https://github.com/abhijitbharalianalyst/basic/blob/master/isl_assists.r).
