@@ -72,6 +72,9 @@ table$hgoal <- as.numeric(table$hgoal)
 table$agoal <- as.factor(table$agoal)
 table$agoal <- as.numeric(table$agoal)
 
+table$hgoal=table$hgoal-1
+table$agoal=table$agoal-1
+
 
 glimpse(table)
 
