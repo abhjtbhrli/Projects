@@ -103,6 +103,8 @@ table$hgoal<-as.numeric(table$hgoal)
 table$agoal<-as.factor(table$agoal)
 table$agoal<-as.numeric(table$agoal)
 
+table$hgoal <- table$hgoal-1
+table$agoal <- table$agoal-1
 
 glimpse(table)
 
@@ -128,7 +130,8 @@ ggplot(table,aes(x=away,y=home,fill=hgoal-agoal))+
         panel.grid = element_blank(),
         panel.background = element_rect(fill = "white"),
         plot.background = element_rect(fill = "white"),
-        plot.title = element_text(size = 15,hjust = 0.5,family = "Helvetica"),
+        plot.title = element_text(size = 18,hjust = 0,family = "Helvetica",
+                                  colour = "midnight blue",face = "bold"),
         plot.caption = element_text(hjust = 0.5),
         axis.text = element_text(size = 7))+
   ggsave("result matrix",dpi = 300, device = "png",width = 11.27,height = 8.27)
@@ -136,7 +139,7 @@ ggplot(table,aes(x=away,y=home,fill=hgoal-agoal))+
 
 The final result looks like this...
 
-![result matrix](https://user-images.githubusercontent.com/37649445/126327305-c618059f-f881-4a20-b1d5-9d22034b087d.png)
+![result matrix](https://user-images.githubusercontent.com/37649445/126432110-0727881e-6b92-40bd-a4fe-b6b94f466b6f.png)
 
 This is an example of a full-stack sports data visualisation approach using `R`, wherein we extract the data from the web using scraping techniques, clean and wrangle the extracted data to a usable format and then visualise the data to generate insights. 
 
