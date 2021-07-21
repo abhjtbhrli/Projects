@@ -100,7 +100,8 @@ ggplot(table,aes(x=away,y=home,fill=hgoal-agoal))+
         panel.grid = element_blank(),
         panel.background = element_rect(fill = "white"),
         plot.background = element_rect(fill = "white"),
-        plot.title = element_text(size = 15,hjust = 0.5,family = "Helvetica"),
+        plot.title = element_text(size = 18,hjust = 0,family = "Helvetica",
+                                  colour = "midnight blue",face = "bold"),
         plot.caption = element_text(hjust = 0.5),
         axis.text = element_text(size = 7))+
   ggsave("result matrix",dpi = 300, device = "png",width = 11.27,height = 8.27)
