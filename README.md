@@ -4,9 +4,9 @@
 
 ## Visualisations
 
-### Visualise innings progression in cricket matches
+### [INNINGS PROGRESSION IN CRICKET](https://github.com/abhjtbhrli/Projects/blob/master/Innings-progression.md)
 
-This is a recreation of a dataviz used by [Stats Perform](https://www.statsperform.com/resource/modelling-cricket-innings-composition/) in their cricket data science related projects. The visualisation showcases how batters pace their innings in a match, highlighting that not all runs are scored similarly. [View my full project documentation here.](https://github.com/abhjtbhrli/Projects/blob/master/Innings-progression.md)
+This is a recreation of a dataviz used by [Stats Perform](https://www.statsperform.com/resource/modelling-cricket-innings-composition/) in their cricket data science related projects. The visualisation, similar to visual representation of time series data, showcases how batters pace their innings in a match, highlighting that not all runs are scored similarly. [View my full project documentation here.](https://github.com/abhjtbhrli/Projects/blob/master/Innings-progression.md)
 
 The viz goes like...
 
@@ -14,7 +14,17 @@ The viz goes like...
 
 _______________________
 
-### Visualise football match results in a matrix using matchsheet data from Transfermarkt.com
+### [TACTICAL ANALYSIS IN FOOTBALL](https://github.com/abhjtbhrli/Projects/blob/master/binmap.R)
+
+A _binmap scatter_ is useful to highlight key details of a football match. It can be remodelled to suit various match-level contexts and visualise plenty of information by mapping pertinent data points from match event data. [The full project documentation.](https://github.com/abhjtbhrli/Projects/blob/master/binmap.R)
+
+The viz goes like...
+
+![qat halfspace2](https://user-images.githubusercontent.com/37649445/126432842-bd65c918-ffce-494e-ac5a-e00fd6510cbc.png)
+
+_______________________
+
+### [FOOTBALL SEASON RESULT MATRIX](https://github.com/abhjtbhrli/Projects/blob/master/rslt-scrp-mtrx.R) 
 
 *** **Method 1** ***
 
@@ -145,7 +155,7 @@ This is an example of a full-stack sports data visualisation approach using `R`,
 
 _______________________
 
-### Lollipops to visualise starting lineup changes of football teams
+### [OPPOSITION ANALYSIS IN FOOTBALL - LOLLIPOPS](https://github.com/abhjtbhrli/Projects/blob/master/Upset%20Plot%20Hack.md)
 
 One of the most important aspects of performance analysis in any sport is opposition analysis. This lollipop chart visualisation provides the starting point for opposition analysis for football teams, highlighting the changes made to a team's starting XI on a per-game basis.
 
@@ -157,7 +167,7 @@ The end product looks like this...
 
 _______________________
 
-### Comparison viz - Radar Plots/Spider Graphs
+### [COMPARISON DATAVIZ - RADARS](https://github.com/abhjtbhrli/Projects/blob/master/spiderplot.R)
 
 A widely used visualisation tool to compare players and teams. Its creation is aided by the `fmsb` package. [View my full project documentation here.](https://github.com/abhjtbhrli/Projects/blob/master/spiderplot.R)
 
