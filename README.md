@@ -189,9 +189,9 @@ https://user-images.githubusercontent.com/37649445/126699156-ab0ed58e-e8bd-4ec5-
 
 _______________________
 
-### [EXPECTED PASSING - LOGISTIC REGRESSION CLASSIFIER TO VALUE PASSES]()
+### [EXPECTED PASSING - LOGISTIC REGRESSION CLASSIFIER TO VALUE PASSES](https://rpubs.com/abhijitbharali/783599)
 
-This full-stack application makes use of rich ball-by-ball data of every Indian Premier League (IPL) match in history to generate in-depth insights. This project encompasses web scraping, data wrangling, mining, modelling and visualisation, a full package . [Project source code here.](https://github.com/abhjtbhrli/Projects/blob/master/cricket-insights.R)
+An attempt to apply a logistic regression classifier to passes in football to value them and predict their success.
 
 A little preview of the application...
 
